@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+}
+
+.form input[type='text'] {
+  flex: 5;
+  padding: 10px;
+  margin: 15px;
+}
+.form input[type='number'] {
+  flex: 5;
+  padding: 10px;
+  margin: 15px;
+}
+
+.form input[type='submit'] {
+  flex: 2;
+  padding: 8px;
+  margin: 10px;
+}
+.btn{
+  background-color: darkgreen;
+}

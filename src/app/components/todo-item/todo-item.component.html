@@ -1,0 +1,12 @@
+<div [ngClass]="setClasses()">
+      <h3>
+        <button class="info">name</button>
+        {{ todo.name }}
+        <p>
+          <button class="info">Phone</button>
+        {{ todo.phone }}
+
+        </p>
+    <button (click)="onDelete(todo)" class="del">x</button>
+  </h3>
+</div>
